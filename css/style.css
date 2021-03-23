@@ -55,7 +55,7 @@
   
   header h1 {
   margin: 1.5% 1.5% 1.5% 1.5%;
-  font-weight: bolder;
+  font-weight: normal;
   }
   
   .title-app {
@@ -92,7 +92,7 @@
   
    .bell:hover {
     cursor: pointer;
-    fill:  rgb(216, 12, 12);
+    fill:  rgb(84, 235, 109);
   }
   
   
@@ -119,9 +119,9 @@
   }
   
   .notification {
-    background-color: rgb(216, 12, 12);
-    width: 0.5rem;
-    height: 0.5rem;
+    background-color: rgb(91, 209, 165);
+    width: .5rem;
+    height: .5rem;
     border-radius: 50%;
     position: absolute;
     left: 1rem;
@@ -141,7 +141,7 @@
   
   aside {
     grid-area: aside;
-    background-color: rgb(46, 46, 165);
+    background-color: rgb(70, 70, 100);
     text-align: center;
   }
   
@@ -156,7 +156,7 @@
     width: 1em;
     height: 1em;
     margin: 2% 3% 2% 3%;
-    fill: white;
+    fill: rgb(252, 246, 246);
     }
   
    .sidebar-icon:hover {
@@ -192,18 +192,10 @@
     top: -1px;
   }
   
-  .searchbox {
-    -webkit-appearance:none;
-    margin-right: 0.5rem;
-    height: 1rem;
-    width: 60%;
-    border:solid 1px whitesmoke;
-    border-radius: 3px;
-    font-size: 0.5rem;
-  }
+  
   
   #alert {
-    background-color: rgb(20, 20, 100);
+    background-color: rgb(118, 118, 196);
     color: white;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem ;
     height: 30px;
@@ -250,7 +242,7 @@
   .subject {
     padding: 0.8rem 0.4rem 0.8rem 0.4rem;
     font-weight: bolder;
-    color: black;
+    color: rgb(5, 5, 5);
   }
   
   .widget-container-full,
@@ -284,7 +276,7 @@
   }
   
   .time-wrap p:hover {
-    background-color: rgb(20, 20, 100);
+    background-color: rgb(91, 209, 165);
     border-radius: 10%/50%;
     text-align: center;
     color: white;
@@ -310,13 +302,13 @@
     border-radius: 5px;
     background-color: whitesmoke;
     border: darkgray 1px solid;
-  
+    line-height: 1.5;
   }
   
   .icon-size {
-    background-color: rgb(30, 28, 165);
+    background-color: rgb(20,20,110, .5);
     border-radius: 50%;
-    fill: white;
+    fill: rgb(253, 252, 252);
     width: 50px;
     height: 50px;
     margin: 0.5rem 1rem 0.5rem 1rem;
@@ -324,14 +316,14 @@
   
   .social-media {
     position: relative;
-    top:5px;
-    font-size: 0.8rem;
-    color: rgb(20, 20, 90);
+    top: 5px;
+    font-size: 1rem;
+    color: rgb(76, 76, 155);
   }
   
   .social-number {
     font-size: 1.8rem;
-    color: black;
+    color: rgb(105, 98, 98);
   }
   
   
@@ -514,9 +506,9 @@
   .setting-button button {
     height:2rem;
     width: 45%;
-    background-color:rgb(85, 85, 168);
+    background-color:rgb(83, 83, 158);
     border: none;
-    color: white;
+    color: rgb(255, 246, 246);
     border-radius: 3px;
   }
   
@@ -689,6 +681,7 @@
   
     .message-input {
       height:1.5rem;
+      background-color: rgb(245, 241, 237);
     }
     
     .message-text {
@@ -696,6 +689,7 @@
       border: none;
       border:solid 1px lightgrey;
       border-radius: 3px;
+      background-color: rgb(245, 241, 237);
     }
     
     .message-button {
@@ -716,6 +710,7 @@
   
     .setting-select {
       height: 2rem;
+      background-color: rgb(245, 241, 237);
     }
     
     .setting-button {
@@ -728,7 +723,7 @@
     .setting-button button {
       height:2rem;
       border: none;
-      color: white;
+      color: rgb(248, 242, 242);
       border-radius: 15px;
       border-radius: 3px;
       margin-bottom: 1rem;
