@@ -100,7 +100,7 @@
   #pop {
     display: none;
     max-width: 120px;
-    background-color: white;
+    background-color: rgb(252, 249, 249);
     color: navy;
     position: absolute;  
     top: 0rem;
@@ -141,7 +141,7 @@
   
   aside {
     grid-area: aside;
-    background-color: rgb(19, 19, 133);
+    background-color: rgb(46, 46, 165);
     text-align: center;
   }
   
@@ -153,10 +153,11 @@
   }
   
   .sidebar-icon {
-    width: 1rem;
-    height: 1rem;
+    width: 1em;
+    height: 1em;
     margin: 2% 3% 2% 3%;
-   }
+    fill: white;
+    }
   
    .sidebar-icon:hover {
      cursor: pointer;
