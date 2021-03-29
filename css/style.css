@@ -402,7 +402,7 @@
   .message-input {
     -webkit-appearance:none;
     height:1rem;
-    border:solid 1px lightgrey;
+    border:solid 1px lightgrey);
     border-radius: 3px;
   }
   
@@ -511,8 +511,38 @@
     color: rgb(255, 246, 246);
     border-radius: 3px;
   }
+   
+  #cancel {
+    background-color:rgb(185, 185, 192);
+  }
   
+  @media(min-width: 320px) {
+    .bell {
+      width: 2rem;
+      height: 1rem;
+    }
+
+    .mypic {
+      width: 1.2em;rem;
+      height: 1.2rem;
+      margin-left: .5rem;
+      margin-right: .1rem ;
+    }
+
+    .traffic-wrap {
+      display: initial
+      }
+
+    .time-wrap {
+      display: flex;
+      align-items: right;
+      justify-content: space-between;
+      width: 100%;
+    }
+    
+  }
   
+
   @media(min-width: 768px) {
     h1 {
       font-size: 1.4rem;
@@ -681,7 +711,7 @@
   
     .message-input {
       height:1.5rem;
-      background-color: rgb(245, 241, 237);
+      background-color: rgb(252, 249, 247);
     }
     
     .message-text {
@@ -819,5 +849,7 @@
   
     .social-number {
       font-size: 2.8rem;
+      
     }
   }
+  

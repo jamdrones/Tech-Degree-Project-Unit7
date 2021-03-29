@@ -28,7 +28,7 @@ let trafficData1 = {
   datasets: [{
     data: [750, 1250, 1000, 2000, 1500, 1750, 1250, 1850, 2250, 1500,
       2500],
-    backgroundColor: "rgb(20,20,110, .5)",
+    backgroundColor: "rgb(20,20,110, .2)",
     borderWidth: 1,
     borderColor:"rgb(255,165,0, .1)",
   }]
@@ -40,7 +40,7 @@ let trafficData2 = {
   datasets: [{
     data: [130, 158, 240, 480, 390,470, 430, 320, 400, 400,
     600],
-    backgroundColor: "rgb(20,20,110, .5)",
+    backgroundColor: "rgb(20,20,110, .2)",
     borderWidth: 1,
     borderColor:"rgb(255,165,0, .1)",
   }]
@@ -52,7 +52,7 @@ let trafficData2 = {
     datasets: [{
       data: [700, 750, 700, 1200, 1300, 1750, 950, 1350, 950, 1500,
       1300],
-      backgroundColor: "rgb(20,20,110, .5)",
+      backgroundColor: "rgb(20,20,110, .2)",
       borderWidth: 1,
       borderColor:"rgb(255,165,0, .1)",
     }]
@@ -64,7 +64,7 @@ let trafficData2 = {
     datasets: [{
       data: [3500, 4400, 2500, 5000, 4800, 6100, 3500, 5000, 4200, 6500,
       5200],
-      backgroundColor: "rgb(20,20,110, .5)",
+      backgroundColor: "rgb(20,20,110, .2)",
       borderWidth: 1,
       borderColor:"rgb(255,165,0, .1)",
     }]
